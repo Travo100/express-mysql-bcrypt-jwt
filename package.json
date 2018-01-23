@@ -1,0 +1,29 @@
+{
+  "name": "express-mysql-bcrypt-jwt",
+  "version": "1.0.0",
+  "description": "a starter template for getting an api up and running with express, sequelize, node-bcrypt, and jwt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sequelize",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "Travis Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.32.1"
+  }
+}
